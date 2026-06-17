@@ -1,5 +1,115 @@
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+body{
+height: 100%;
+width: 100%;
+font-family: "aptos-narrow", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
 
 
-body {
-    background-color: #262626;
+  /*dropdown START*/
+.dd{
+  /*Dropdown*/
+display: inline-block;
+}
+
+#ddb{
+  /*Dropdown Button*/
+  background-color: #262626;
+  color: white;
+  border: 0;
+  font-size: 25px;
+  font-family: "aptos-narrow", sans-serif;
+} 
+
+#ddb:hover{
+  /*Dropdown Button hover state*/
+  background-color: #262626;
+  border-radius: 5px;
+}
+
+.dd-ct{
+  /*Dropdown Content*/
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  border: 3px solid #0D0D0D;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color: #262626;
+}
+
+.dd:hover .dd-ct {
+  /* Dropdown Hover-state display Dropdown Content */
+  display: block;
+}
+/*dropdown END*/
+
+/*navbar START*/
+#navbar{
+  /*Navigation Bar*/
+  background-color: #262626;
+  border: 2.5px solid #0D0D0D;
+  width: 100%;
+  z-index: 100;
+  text-align: center;
+}
+
+#navbar a{
+  /*Navigation Bar Hyperlinks*/
+  padding: 0px 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 30px;
+}
+
+#navbar a:hover{
+  /*Navigation Bar Hover-state*/
+  border-radius: 3px;
+  background-color: #0D0D0D;
+}
+
+#navbar input[type=text]{
+  background-image: linear-gradient(to left, #2596be, #325891);
+  color: white;
+  width: 35%;
+  border: 2.5px solid #2e4e7c;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+
+#navbar img{
+  /*Navigation Bar Images*/
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+}
+
+
+#navbar h1{
+  /*Navigation Bar Heading 1*/
+  vertical-align: middle;
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 25px;
+  font-family: "aptos-narrow", sans-serif;
+  color: white;
+  font-weight: lighter;
+}
+/*navbar END*/
+
+
+#grad {
+  background-image: linear-gradient(#2596be, #325891, white);
+  width: 100%;
+  height: 80%;
   }
