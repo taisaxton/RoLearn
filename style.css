@@ -86,14 +86,12 @@ display: inline-block;
   border-radius: 5px;
 }
 
-
 #navbar img{
   /*Navigation Bar Images*/
   display: inline-block;
   vertical-align: middle;
   width: 50px;
 }
-
 
 #navbar h1{
   /*Navigation Bar Heading 1*/
@@ -106,7 +104,6 @@ display: inline-block;
   font-weight: lighter;
 }
 /*navbar END*/
-
 
 #grad {
   background-image: linear-gradient(#2596be, #325891, white);
@@ -121,7 +118,7 @@ display: inline-block;
   width: 70%;
   height: 80%;
   z-index: 10;
-  margin-top: 150px;
+  margin-top: 125px;
   position: absolute;
   border-radius: 10px;
   left: 15%;
@@ -135,3 +132,5 @@ display: inline-block;
   width: 100%;
   height: 100%;
 }
+
+
