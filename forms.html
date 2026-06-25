@@ -5,8 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RoLearn</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Imported Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/daf7yst.css">
 </head>
 <body>
-    
+      <!-- Navigation Bar -->
+  <div id="navbar">
+    <!--Hyperlinks List -->
+    <ul id="links">
+      <!-- Logo -->
+      <a href="index.html">
+        <img src="Icon.png" id="logo" alt="RoLearn Logo"/></a>
+      <!-- Dropdown -->
+      <div class="dd">
+        <!-- Dropdown Button -->
+        <button id="ddb">Tutorials ⏷</button>
+        <div class="dd-ct">
+          <!-- Dropdown Hyperlinks -->
+          <a href="beginner.html">Beginner</a>
+          <a href="advanced.html">Advanced</a>
+          <a href="expert.html">Expert</a>
+        </div>
+      </div>
+      <!-- Hyperlinks -->
+      <a href="forms.html">Forms</a>
+      <!-- Search Bar -->
+      <input type="text" placeholder="🔍︎   Search...">
+      <a href="quizzes.html">Quizzes</a>
+      <a href="about.html">About</a>
+      <!-- Dropdown -->
+      <div class="dd">
+        <!-- Dropdown Button -->
+        <button id="ddb">
+        <img src="User.png" id="logo" alt="User Logo"></button>
+        <div class="dd-ct">
+          <!-- Dropdown Hyperlinks -->
+          <a href="user.html">Profile</a>
+          <a href="projects.html">Projects</a>
+          <a href="favorites.html">Favorited</a>
+          <a href="settings.html">Settings</a>
+        </div>
+      </div>
+    </ul>
+  </div>
+
+<!-- Main Frame-->
+<div id="main">
+  <!-- Background Gradient-->
+  <div id="grad">
+  </div>
+  <!-- Main Content-->
+  <div id="main-ct">
+    <!--Form Creation -->
+    <form>
+      <!-- Form Heading -->
+      <label for="ftitle">Form Title</label><br>
+      <input type="text" id="ftitle" name="ftitle"><br>
+      <!-- Form SubHeading -->
+      <label for="stitle">Sub Title</label><br>
+      <input type="text" id="stitle" name="stitle"><br>
+      <!-- Topic Tags -->
+      <label for="tags">What is the form about?</label>
+      <select name="tags" id="tags" multiple>
+        <option value="gen">General Discussion</option>
+        <option value="lfg">Looking For Help</option>
+        <option value="tat">Tips & Tricks</option>
+        <option value="audi">Audi</option>
+        </select>
+        <!-- Form Submission-->
+        <input type="submit" id="sub" value="Submit">
+    </form>
+  </div>
+</div>
 </body>
 </html>
